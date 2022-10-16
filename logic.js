@@ -4,9 +4,9 @@ let randomGen;
 let predictedValue;
 let point = 0;
 let userName = "";
+userName = prompt("What is you user name?");
 const randomSelect = (range = 2) => {
     console.log(range);
-    userName = prompt("What is you user name?");
     randomGen = Math.floor(Math.random() * 2) + 1;
     predictedValue = prompt(`Hello ${userName} guess a number between ${start} and ${range}`);
 
